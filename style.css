@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@200&display=swap');
+body{
+    margin: 0;
+    color:aliceblue;
+    font-size: x-large;
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+font-weight: 900;
+text-align: center;
+}
+
+li{
+    list-style: none;
+    font-family: 'Patrick Hand', cursive;
+}
+
+html {
+    background: url(https://cdn.wallpapersafari.com/33/79/eSpD2Z.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    /* -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px; */
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .input
+  {
+      font-size: large;
+    height: 40px;
+    width: 100%;  
+  }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto 10rem;
+    grid-gap: 7px;
+    
+}
+
+li
+{
+    display: grid;
+    grid-template-columns:2rem auto 3rem;
+    background-color:rgba(128, 128, 128, 0.644);
+    border: 1px solid rgba(128, 128, 128, 1);
+    margin-bottom: 1px;
+    height: 2rem;
+    text-align: left;
+    
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 1);
+    cursor: pointer;
+}
+ul{
+    padding: 0;
+}
+li input{
+    width: auto;
+    height: auto;
+    margin: 0 3px 0 0;
+}
+li input:hover{
+    cursor: pointer;
+}
+li button{
+    background: url("bin.png.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: 0;
+    background-position-x:right;
+    
+}
+li button:hover{
+    cursor: pointer;
+}
+li span{
+    cursor:auto;
+}
